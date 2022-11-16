@@ -1,3 +1,7 @@
-import './Iframe.styles.css'
-
-export const Iframe = () => <div>0</div>;
+export function Iframe() {
+    return (
+        <div className="Iframe row-span-2">
+            <iframe className="h-full w-full" />
+        </div>
+    )
+}

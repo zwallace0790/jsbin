@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Iframe, .Editor, .Console {
+    @apply
+		resize-x
+		overflow-visible
+		min-w-full
+		border-4 
+		border-indigo-500/100
+		min-h-full
+        text-center;
+}
